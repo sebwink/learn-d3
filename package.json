@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "test": "exit 1",
-    "dev": "ws"
+    "dev": "ws --rewrite '/learn-d3/(.*) -> /$1'"
   },
   "repository": {
     "type": "git",
