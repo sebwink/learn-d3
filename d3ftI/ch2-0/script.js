@@ -1,5 +1,5 @@
-const DEMO_DATA_URL_ROOT = 'https://sebwink.fra1.digitaloceanspaces.com/demos/d3';
-const DEMO_DATA_URL = `${DEMO_DATA_URL_ROOT}/d3ftI-ch2-0.csv`
+const DEMO_DATA_URL_ROOT = 'https://code.sebwink.net/learn-d3/d3ftI/ch2-0';
+const DEMO_DATA_URL = `${DEMO_DATA_URL_ROOT}/data.csv`
 
 const DEFAULT_STYLE = {
   radius: 5,
