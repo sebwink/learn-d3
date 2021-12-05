@@ -1,0 +1,28 @@
+{
+  "name": "learn-d3",
+  "version": "0.0.42",
+  "description": "Learn D3.js",
+  "private": true,
+  "scripts": {
+    "test": "exit 1",
+    "dev": "ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebwink/learn-d3.git"
+  },
+  "keywords": [
+    "D3.js",
+    "D3",
+    "Visualization"
+  ],
+  "author": "Sebastian Winkler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebwink/learn-d3/issues"
+  },
+  "homepage": "https://github.com/sebwink/learn-d3#readme",
+  "devDependencies": {
+    "local-web-server": "^5.1.1"
+  }
+}
