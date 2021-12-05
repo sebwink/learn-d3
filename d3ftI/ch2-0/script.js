@@ -38,7 +38,7 @@ function main()
     {x: 200, y: 200},
     {x: 300, y: 150},
     {x: 400, y: 100},
-    {x: 500, y:  50},
+    {x: 500, y: 100},
   ], {
     radius: 20,
     color: 'yellow',
