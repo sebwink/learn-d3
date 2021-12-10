@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "exit 1",
-    "dev": "ws --rewrite '/learn-d3/(.*) -> /$1'"
+    "dev": "npm run browser-sync",
+    "browser-sync": "browser-sync start --server --no-open --no-ui --serveStatic site --files 'site/**/*'"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,6 @@
   },
   "homepage": "https://github.com/sebwink/learn-d3#readme",
   "devDependencies": {
-    "local-web-server": "^5.1.1"
+    "browser-sync": "^2.27.7"
   }
 }

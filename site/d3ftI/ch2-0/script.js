@@ -1,5 +1,4 @@
-const DEMO_DATA_URL_ROOT = 'https://code.sebwink.net/learn-d3/d3ftI/ch2-0';
-const DEMO_DATA_URL = `${DEMO_DATA_URL_ROOT}/data.csv`;
+const DEMO_DATA_URL = 'data.csv';
 
 const DEFAULT_STYLE = {
   radius: 5,
@@ -12,10 +11,12 @@ function draw(element, data, style)
     .data(data)
     .enter()
     .append('circle')
-    .attr('r', style.radius)
-    .attr("fill", style.color)
-    .attr("cx", d => d.x)
-    .attr("cy", d => d.y);
+    .attrs({
+      r: style.radius,
+      fill: style.color,
+      cx: d => d.x,
+      cy: d => d.y,
+    });
 }
 
 function fetchAndDraw(element, dataUrl, style=DEFAULT_STYLE)
